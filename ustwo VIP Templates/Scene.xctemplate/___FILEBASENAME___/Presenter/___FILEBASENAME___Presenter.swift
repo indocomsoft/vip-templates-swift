@@ -19,7 +19,7 @@ protocol ___VARIABLE_sceneName___PresenterOutput: class {
 
 final class ___VARIABLE_sceneName___Presenter {
 
-    private(set) weak var output: ___VARIABLE_sceneName___PresenterOutput!
+    private(set) unowned var output: ___VARIABLE_sceneName___PresenterOutput
 
 
     // MARK: - Initializers
