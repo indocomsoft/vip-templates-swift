@@ -25,7 +25,7 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
     // MARK: - Initializers
 
-    init(configurator: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator.sharedInstance) {
+    init(configurator: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator.shared) {
 
         super.init(nibName: nil, bundle: nil)
 
@@ -42,7 +42,7 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
     // MARK: - Configurator
 
-    private func configure(configurator: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator.sharedInstance) {
+    private func configure(configurator: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator.shared) {
 
         configurator.configure(viewController: self)
     }

@@ -13,7 +13,7 @@ final class ___VARIABLE_sceneName___Configurator {
 
     // MARK: - Singleton
 
-    static let sharedInstance: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator()
+    static let shared: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator()
 
 
     // MARK: - Configuration
