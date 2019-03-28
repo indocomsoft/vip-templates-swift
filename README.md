@@ -1,5 +1,8 @@
 # VIP Xcode Templates
 
+## Note by @indocomsoft
+Based on @JubrilO's fix for XCode 9, I renamed all `sharedInstance` to `shared`, reflecting Apple's preference for the latter after Swift 2.
+
 Xcode templates based on [Clean Swift](https://clean-swift.com) for generating Swift source code in View Interactor Presenter architecture.
 
 
