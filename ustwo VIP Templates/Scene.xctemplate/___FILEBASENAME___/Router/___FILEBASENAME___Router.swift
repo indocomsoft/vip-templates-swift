@@ -9,21 +9,16 @@
 import UIKit
 
 protocol ___VARIABLE_sceneName___RouterProtocol {
-
     var viewController: ___VARIABLE_sceneName___ViewController? { get }
 
     func navigateToSomewhere()
 }
 
 final class ___VARIABLE_sceneName___Router {
-
     weak var viewController: ___VARIABLE_sceneName___ViewController?
 
-
     // MARK: - Initializers
-
     init(viewController: ___VARIABLE_sceneName___ViewController?) {
-
         self.viewController = viewController
     }
 }
@@ -32,10 +27,6 @@ final class ___VARIABLE_sceneName___Router {
 // MARK: - ___VARIABLE_sceneName___RouterProtocol
 
 extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RouterProtocol {
-
-
-    // MARK: - Navigation
-
     func navigateToSomewhere() {
 
     }
