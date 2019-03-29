@@ -29,7 +29,7 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
 
         super.init(nibName: nil, bundle: nil)
 
-        configure()
+        configure(configurator: configurator)
     }
 
     required init?(coder aDecoder: NSCoder) {
