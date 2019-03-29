@@ -45,6 +45,8 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController {
     private func configure(configurator: ___VARIABLE_sceneName___Configurator = ___VARIABLE_sceneName___Configurator.shared) {
 
         configurator.configure(viewController: self)
+        restorationIdentifier = String(describing: type(of: self))
+        restorationClass = type(of: self)
     }
 
 
@@ -79,5 +81,12 @@ extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___ViewCo
     func displaySomething(viewModel: ___VARIABLE_sceneName___ViewModel) {
 
         // TODO: Update UI
+    }
+}
+
+// MARK: - UIViewControllerRestoration
+extension ___VARIABLE_sceneName___ViewController: UIViewControllerRestoration {
+    static func viewController(withRestorationIdentifierPath path: [String], coder: NSCoder) -> UIViewController? {
+        return self.init()
     }
 }
